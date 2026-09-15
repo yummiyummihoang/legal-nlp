@@ -1,0 +1,13 @@
+# Cấu hình chung cho pipeline Legal NLP
+app:
+  name: "legal-nlp"
+  version: "1.0.0"
+
+paths:
+  raw_data: "data/raw"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  output_data: "data/output"
+  annotations: "data/annotations"
+  splits: "data/splits"
+  reports: "reports"

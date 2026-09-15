@@ -1,0 +1,9 @@
+# Cấu hình models NLP
+ner:
+  model_name: "vinai/phobert-base"
+  max_seq_length: 512
+  batch_size: 16
+
+classifier:
+  model_name: "vinai/phobert-base"
+  num_labels: 10
